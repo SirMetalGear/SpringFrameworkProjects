@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+  <title>Привет!</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"/>
+</head>
+
+<body>
+<header th:insert="blocks/header :: header"/>
+<div class="container mt-5">
+  <p class="font-weight-bold">Привет!</p>
+  <p class="font-weight-bold">Меня зовут Тимофей и я backend разработчик!</p>
+  <p class="font-weight-bold">Данный сайт написан на Spring Boot с использованием всех сопутствующих технологий.</p>
+  <p class="font-weight-bold">За frontend составляющую отвечает <a href="https://getbootstrap.com/">bootstrap</a> и thymeleaf.</p>
+  <br><br>
+  <p>Моя почта: t.lukin@inbox.ru</p>
+
+</div>
+<div th:insert="blocks/footer :: footer"></div>
+</body>
+
+</html>

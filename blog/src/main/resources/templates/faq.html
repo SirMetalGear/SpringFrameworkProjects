@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+  <title>Привет!</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"/>
+</head>
+
+<body>
+<header th:insert="blocks/header :: header"/>
+<div class="container mt-5">
+  <p class="font-weight-bold">Здесь можно:</p>
+  <p class="font-weight-bold">1. Вести свой минималистичный блог.</p>
+  <p class="font-weight-bold">2. Отказаться от идеи вести свой минималистичный блог.</p>
+  <p class="font-weight-bold">3. Посмотреть на дизайн сайта, принять решение научиться фронтенду.</p>
+  <br><br>
+  <p>Моя почта: t.lukin@inbox.ru</p>
+
+</div>
+<div th:insert="blocks/footer :: footer"></div>
+</body>
+
+</html>
